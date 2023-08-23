@@ -1,0 +1,459 @@
+Aug 19 02:12:56 myir user.debug kernel: [   69.970554]   Firmware: wl0: Nov 25 2016 15:06:56 version 7.46.57.5.apsta.r4.o12 (Station/Softap) FWID 01-64fb9fe8 es6.c5.n4.a3
+Aug 19 02:12:56 myir user.debug kernel: [   69.970554]   CLM: 7.11.15 
+Aug 19 02:12:56 myir user.debug kernel: [   69.970883] dhd_txglom_enable: enable 1
+Aug 19 02:12:56 myir user.debug kernel: [   69.970889] dhd_conf_set_txglom_params: txglom_mode=multi-desc
+Aug 19 02:12:56 myir user.debug kernel: [   69.970894] dhd_conf_set_txglom_params: txglomsize=36, deferred_tx_len=0
+Aug 19 02:12:56 myir user.debug kernel: [   69.970898] dhd_conf_set_txglom_params: txinrx_thres=-1, dhd_txminmax=1
+Aug 19 02:12:56 myir user.debug kernel: [   69.970903] dhd_conf_set_txglom_params: tx_max_offset=0, txctl_tmo_fix=300
+Aug 19 02:12:56 myir user.debug kernel: [   69.970911] dhd_conf_get_disable_proptx: fw_proptx=1, disable_proptx=-1
+Aug 19 02:12:56 myir user.debug kernel: [   69.971964] dhd_wlfc_hostreorder_init(): successful bdcv2 tlv signaling, 64
+Aug 19 02:12:56 myir user.debug kernel: [   69.973965] dhd_pno_init: Support Android Location Service
+Aug 19 02:12:56 myir user.info kernel: [   69.999008] CFG80211-ERROR) wl_cfg80211_event : Event handler is not created
+Aug 19 02:12:56 myir user.debug kernel: [   69.999852] rtt_do_get_ioctl: failed to send getbuf proxd iovar (CMD ID : 1), status=-23
+Aug 19 02:12:56 myir user.debug kernel: [   69.999858] dhd_rtt_init : FTM is not supported
+Aug 19 02:12:56 myir user.debug kernel: [   69.999863] dhd_preinit_ioctls: SensorHub diabled 0
+Aug 19 02:12:56 myir user.debug kernel: [   70.000692] dhd_preinit_ioctls failed to set ShubHub disable
+Aug 19 02:12:56 myir user.debug kernel: [   70.001552] dhd_ndo_get_version: failed, retcode = -23
+Aug 19 02:12:56 myir user.debug kernel: [   70.002410] dhd_wl_ioctl_get_intiovar: get int iovar wnm_bsstrans_resp failed, ERR -23
+Aug 19 02:12:56 myir user.debug kernel: [   70.002415] failed to get wnm_bsstrans_resp
+Aug 19 02:12:56 myir user.debug kernel: [   70.003252] failed to set WNM capabilities
+Aug 19 02:12:56 myir user.debug kernel: [   70.003826] dhd_conf_set_country: set country CN, revision 0
+Aug 19 02:12:56 myir user.info kernel: [   70.003827] CFG80211-ERROR) wl_cfg80211_event : Event handler is not created
+Aug 19 02:12:56 myir user.debug kernel: [   70.007261] Country code: CN (CN/0)
+Aug 19 02:12:56 myir user.debug kernel: [   70.011530] wl_android_wifi_on: Success
+Aug 19 02:12:56 myir user.info kernel: [   70.039393] CFG80211-ERROR) __wl_update_wiphybands : error reading vhtmode (-23)
+Aug 19 02:12:56 myir daemon.info dhcpcd[1484]: wlan0: waiting for carrier
+Aug 19 02:12:56 myir daemon.info dhcpcd[1484]: wlan0: carrier acquired
+Aug 19 02:12:56 myir user.debug kernel: [   70.052767] dhd_open : the lock is released.
+Aug 19 02:12:56 myir user.debug kernel: [   70.052773] dhd_open: Exit ret=0
+Aug 19 02:12:56 myir daemon.info dhcpcd[1484]: wlan0: IAID 9d:ae:a2:25
+Aug 19 02:12:56 myir daemon.info dhcpcd[1484]: wlan0: adding address fe80::cf53:9be5:f17f:c98d
+Aug 19 02:12:57 myir daemon.info dhcpcd[1484]: wlan0: soliciting a DHCP lease
+Aug 19 02:12:57 myir daemon.info dhcpcd[1484]: wlan0: soliciting an IPv6 router
+Aug 19 02:12:57 myir daemon.crit dnsmasq[5068]: failed to bind DHCP server socket: Address already in use
+Aug 19 02:12:57 myir daemon.crit dnsmasq[5068]: FAILED to start up
+Aug 19 02:12:57 myir user.debug kernel: [   71.083403] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:12:57 myir user.debug kernel: [   71.102169] wl_cfg80211_set_channel: netdev_ifidx(11), chan_type(1) target channel(6) 
+Aug 19 02:13:00 myir user.info kernel: [   74.357295] sunxi-ehci 5311000.ehci3-controller: ehci_irq: highspeed device connect
+Aug 19 02:13:01 myir user.info kernel: [   74.517490] sunxi-ehci 5311000.ehci3-controller: ehci_irq: highspeed device disconnect
+Aug 19 02:13:01 myir user.info kernel: [   74.837477] usb 6-1: new full-speed USB device number 2 using sunxi-ohci
+Aug 19 02:13:01 myir user.info kernel: [   75.019361] ftdi_sio 6-1:1.0: FTDI USB Serial Device converter detected
+Aug 19 02:13:01 myir user.info kernel: [   75.019506] usb 6-1: Detected FT232RL
+Aug 19 02:13:01 myir user.info kernel: [   75.023331] usb 6-1: FTDI USB Serial Device converter now attached to ttyUSB0
+Aug 19 02:13:02 myir daemon.info dhcpcd[1484]: wlan0: probing for an IPv4LL address
+Aug 19 02:13:07 myir daemon.info dhcpcd[1484]: wlan0: using IPv4LL address 169.254.71.62
+Aug 19 02:13:07 myir user.info kernel: [   81.180864] CFG80211-ERROR) wl_cfg80211_bcn_bringup_ap : Link up didn't come for AP interface. AP/GO creation failed! 
+Aug 19 02:13:07 myir user.debug kernel: [   81.181045] Dump dongle memory
+Aug 19 02:13:07 myir user.debug kernel: [   81.241591] dhd_schedule_memdump: buf(va)=ffffffc078b80000, buf(pa)=b8b80000, bufsize=524288
+Aug 19 02:13:07 myir user.debug kernel: [   81.241687] open file /installmedia/mem_dump_BY_AP_LINK_FAILURE_1692382387.873127, try /data/
+Aug 19 02:13:07 myir user.debug kernel: [   81.241694] write_dump_to_file: file_path = /data/mem_dump_BY_AP_LINK_FAILURE_1692382387.873127
+Aug 19 02:13:07 myir user.debug kernel: [   81.241704] open file error, err = -2
+Aug 19 02:13:07 myir user.debug kernel: [   81.241708] dhd_mem_dump: writing SoC_RAM dump to the file failed
+Aug 19 02:13:07 myir user.info kernel: [   81.241725] CFG80211-ERROR) wl_cfg80211_start_ap : Beacon bring up AP/GO failed 
+Aug 19 02:13:07 myir user.info kernel: [   81.241733] CFG80211-ERROR) wl_cfg80211_start_ap : ADD/SET beacon failed
+Aug 19 02:13:07 myir daemon.info dhcpcd[1484]: wlan0: adding route to 169.254.0.0/16
+Aug 19 02:13:07 myir daemon.info ntpd[1492]: Listen normally on 6 wlan0 169.254.71.62:123
+Aug 19 02:13:07 myir daemon.info ntpd[1492]: Listen normally on 7 wlan0 [fe80::cf53:9be5:f17f:c98d%11]:123
+Aug 19 02:13:07 myir user.debug kernel: [   81.250877] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:07 myir user.debug kernel: [   81.254313] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:07 myir user.info kernel: [   81.295255] CFG80211-ERROR) wl_bss_iovar_war : wl bss 2
+Aug 19 02:13:12 myir user.debug kernel: [   86.054784] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:12 myir user.debug kernel: [   86.072724] wl_cfg80211_set_channel: netdev_ifidx(11), chan_type(1) target channel(6) 
+Aug 19 02:13:19 myir daemon.warn dhcpcd[1484]: wlan0: no IPv6 Routers available
+Aug 19 02:13:22 myir user.info kernel: [   96.117464] CFG80211-ERROR) wl_cfg80211_bcn_bringup_ap : Link up didn't come for AP interface. AP/GO creation failed! 
+Aug 19 02:13:22 myir user.debug kernel: [   96.117651] Dump dongle memory
+Aug 19 02:13:22 myir user.debug kernel: [   96.178814] dhd_schedule_memdump: buf(va)=ffffffc078b80000, buf(pa)=b8b80000, bufsize=524288
+Aug 19 02:13:22 myir user.debug kernel: [   96.178870] open file /installmedia/mem_dump_BY_AP_LINK_FAILURE_1692382402.810354, try /data/
+Aug 19 02:13:22 myir user.debug kernel: [   96.178876] write_dump_to_file: file_path = /data/mem_dump_BY_AP_LINK_FAILURE_1692382402.810354
+Aug 19 02:13:22 myir user.debug kernel: [   96.178885] open file error, err = -2
+Aug 19 02:13:22 myir user.debug kernel: [   96.178890] dhd_mem_dump: writing SoC_RAM dump to the file failed
+Aug 19 02:13:22 myir user.info kernel: [   96.178904] CFG80211-ERROR) wl_cfg80211_start_ap : Beacon bring up AP/GO failed 
+Aug 19 02:13:22 myir user.info kernel: [   96.178913] CFG80211-ERROR) wl_cfg80211_start_ap : ADD/SET beacon failed
+Aug 19 02:13:22 myir user.debug kernel: [   96.184687] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:22 myir user.debug kernel: [   96.188104] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:22 myir user.info kernel: [   96.228269] CFG80211-ERROR) wl_bss_iovar_war : wl bss 2
+Aug 19 02:13:27 myir user.debug kernel: [  101.055101] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:27 myir user.debug kernel: [  101.073623] wl_cfg80211_set_channel: netdev_ifidx(11), chan_type(1) target channel(6) 
+Aug 19 02:13:37 myir user.info kernel: [  111.260794] CFG80211-ERROR) wl_cfg80211_bcn_bringup_ap : Link up didn't come for AP interface. AP/GO creation failed! 
+Aug 19 02:13:37 myir user.debug kernel: [  111.261006] Dump dongle memory
+Aug 19 02:13:37 myir user.debug kernel: [  111.322292] dhd_schedule_memdump: buf(va)=ffffffc078b80000, buf(pa)=b8b80000, bufsize=524288
+Aug 19 02:13:37 myir user.debug kernel: [  111.322352] open file /installmedia/mem_dump_BY_AP_LINK_FAILURE_1692382417.953839, try /data/
+Aug 19 02:13:37 myir user.debug kernel: [  111.322359] write_dump_to_file: file_path = /data/mem_dump_BY_AP_LINK_FAILURE_1692382417.953839
+Aug 19 02:13:37 myir user.debug kernel: [  111.322367] open file error, err = -2
+Aug 19 02:13:37 myir user.debug kernel: [  111.322373] dhd_mem_dump: writing SoC_RAM dump to the file failed
+Aug 19 02:13:37 myir user.info kernel: [  111.322386] CFG80211-ERROR) wl_cfg80211_start_ap : Beacon bring up AP/GO failed 
+Aug 19 02:13:37 myir user.info kernel: [  111.322394] CFG80211-ERROR) wl_cfg80211_start_ap : ADD/SET beacon failed
+Aug 19 02:13:37 myir user.debug kernel: [  111.328048] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:37 myir user.debug kernel: [  111.331465] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:38 myir user.info kernel: [  111.388173] CFG80211-ERROR) wl_bss_iovar_war : wl bss 2
+Aug 19 02:13:42 myir user.debug kernel: [  116.054724] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:42 myir user.debug kernel: [  116.073193] wl_cfg80211_set_channel: netdev_ifidx(11), chan_type(1) target channel(6) 
+Aug 19 02:13:52 myir user.info kernel: [  126.194134] CFG80211-ERROR) wl_cfg80211_bcn_bringup_ap : Link up didn't come for AP interface. AP/GO creation failed! 
+Aug 19 02:13:52 myir user.debug kernel: [  126.194318] Dump dongle memory
+Aug 19 02:13:52 myir user.debug kernel: [  126.255948] dhd_schedule_memdump: buf(va)=ffffffc078b80000, buf(pa)=b8b80000, bufsize=524288
+Aug 19 02:13:52 myir user.debug kernel: [  126.256022] open file /installmedia/mem_dump_BY_AP_LINK_FAILURE_1692382432.887497, try /data/
+Aug 19 02:13:52 myir user.debug kernel: [  126.256039] write_dump_to_file: file_path = /data/mem_dump_BY_AP_LINK_FAILURE_1692382432.887497
+Aug 19 02:13:52 myir user.debug kernel: [  126.256050] open file error, err = -2
+Aug 19 02:13:52 myir user.debug kernel: [  126.256055] dhd_mem_dump: writing SoC_RAM dump to the file failed
+Aug 19 02:13:52 myir user.info kernel: [  126.256068] CFG80211-ERROR) wl_cfg80211_start_ap : Beacon bring up AP/GO failed 
+Aug 19 02:13:52 myir user.info kernel: [  126.256077] CFG80211-ERROR) wl_cfg80211_start_ap : ADD/SET beacon failed
+Aug 19 02:13:52 myir user.debug kernel: [  126.261838] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:52 myir user.debug kernel: [  126.265253] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:52 myir user.info kernel: [  126.308287] CFG80211-ERROR) wl_bss_iovar_war : wl bss 2
+Aug 19 02:13:54 myir user.debug kernel: [  127.865936] dhd_module_cleanup: Enter
+Aug 19 02:13:54 myir user.debug kernel: [  127.865991] sdioh_remove: Enter
+Aug 19 02:13:54 myir user.debug kernel: [  127.866034] dhdsdio_disconnect : no mutex held. set lock
+Aug 19 02:13:54 myir user.debug kernel: [  127.866182] dhd_stop: Enter ffffffc077c43000
+Aug 19 02:13:54 myir user.debug kernel: [  127.866204] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.info kernel: [  127.866210] CFG80211-ERROR) wl_cfg80211_clear_security : wsec clear failed 
+Aug 19 02:13:54 myir user.debug kernel: [  127.866221] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.info kernel: [  127.866225] CFG80211-ERROR) wl_cfg80211_clear_security : auth clear failed 
+Aug 19 02:13:54 myir user.debug kernel: [  127.866234] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.info kernel: [  127.866238] CFG80211-ERROR) wl_cfg80211_clear_security : wpa_auth clear failed 
+Aug 19 02:13:54 myir user.debug kernel: [  127.866252] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.info kernel: [  127.866256] CFG80211-ERROR) wl_cfg80211_bss_isup : 'cfg bss -C 0' failed: -19
+Aug 19 02:13:54 myir user.info kernel: [  127.866264] CFG80211-ERROR) wl_cfg80211_bss_isup : NOTE: this ioctl error is normal when the BSS has not been created yet.
+Aug 19 02:13:54 myir user.debug kernel: [  127.866285] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.debug kernel: [  127.866290] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.info kernel: [  127.866295] CFG80211-ERROR) wl_cfg80211_update_power_mode : wl_cfg80211_update_power_mode:error (-19)
+Aug 19 02:13:54 myir user.info kernel: [  127.866377] CFGP2P-ERROR) wl_cfgp2p_disable_discovery :  do nothing, not initialized
+Aug 19 02:13:54 myir user.info kernel: [  127.866402] CFGP2P-ERROR) wl_cfgp2p_deinit_priv : In
+Aug 19 02:13:54 myir user.debug kernel: [  127.866415] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.info kernel: [  127.866420] CFG80211-ERROR) wl_dongle_down : WLC_DOWN error (-19)
+Aug 19 02:13:54 myir user.debug kernel: [  127.866435] dhd_tcpack_suppress_set 362: already set to 0
+Aug 19 02:13:54 myir user.debug kernel: [  127.866443] wl_android_wifi_off in 1
+Aug 19 02:13:54 myir user.debug kernel: [  127.866448] wl_android_wifi_off in 2: g_wifi_on=1, on_failure=1
+Aug 19 02:13:54 myir user.debug kernel: [  127.866454] dhd_wl_ioctl: returning as busstate=5
+Aug 19 02:13:54 myir user.debug kernel: [  127.866464] dhd_dbg_detach_pkt_monitor, 2204
+Aug 19 02:13:54 myir user.debug kernel: [  127.866470] dhd_bus_devreset: == Power OFF ==
+Aug 19 02:13:54 myir user.debug kernel: [  127.866658] bcmsdh_oob_intr_unregister: Enter
+Aug 19 02:13:54 myir user.debug kernel: [  127.866700] dhd_txglom_enable: enable 0
+Aug 19 02:13:54 myir user.debug kernel: [  127.866707] dhd_conf_set_txglom_params: txglom_mode=multi-desc
+Aug 19 02:13:54 myir user.debug kernel: [  127.866712] dhd_conf_set_txglom_params: txglomsize=0, deferred_tx_len=0
+Aug 19 02:13:54 myir user.debug kernel: [  127.866716] dhd_conf_set_txglom_params: txinrx_thres=-1, dhd_txminmax=1
+Aug 19 02:13:54 myir user.debug kernel: [  127.866721] dhd_conf_set_txglom_params: tx_max_offset=0, txctl_tmo_fix=300
+Aug 19 02:13:54 myir user.debug kernel: [  127.866726] dhd_bus_devreset:  WLAN OFF DONE
+Aug 19 02:13:54 myir user.debug kernel: [  127.866767] wifi_platform_set_power = 0
+Aug 19 02:13:54 myir user.debug kernel: [  127.866773] ======== PULL WL_REG_ON(-1) LOW! ========
+Aug 19 02:13:54 myir user.debug kernel: [  127.867890] wl_android_wifi_off out
+Aug 19 02:13:54 myir user.err kernel: [  127.867898] ANDROID-MSG) wl_ext_iapsta_dettach_netdev: ifidx=0
+Aug 19 02:13:54 myir user.debug kernel: [  127.867916] dhd_stop: Exit
+Aug 19 02:13:54 myir daemon.info dhcpcd[1484]: wlan0: carrier lost
+Aug 19 02:13:54 myir user.debug kernel: [  127.872637] bcmsdh_oob_intr_unregister: Enter
+Aug 19 02:13:54 myir user.debug kernel: [  127.872648] bcmsdh_oob_intr_unregister: irq is not registered
+Aug 19 02:13:54 myir user.debug kernel: [  127.872659] dhd_wlfc_deinit():3751, Already disabled!
+Aug 19 02:13:54 myir user.debug kernel: [  127.914304] dhd_detach(): thread:dhd_watchdog_thread:134d terminated OK
+Aug 19 02:13:54 myir user.debug kernel: [  127.914360] dhd_detach(): thread:dhd_rxf:134f terminated OK
+Aug 19 02:13:54 myir user.debug kernel: [  127.914380] dhd_dpc_thread: Unexpected up_cnt 0
+Aug 19 02:13:54 myir user.debug kernel: [  127.914416] dhd_detach(): thread:dhd_dpc:134e terminated OK
+Aug 19 02:13:54 myir daemon.info dhcpcd[1484]: wlan0: deleting address fe80::cf53:9be5:f17f:c98d
+Aug 19 02:13:54 myir user.debug kernel: [  127.934326] dhd_dbg_detach_pkt_monitor, 2204
+Aug 19 02:13:54 myir user.debug kernel: [  127.934362] dhd_tcpack_suppress_set 362: already set to 0
+Aug 19 02:13:54 myir user.debug kernel: [  127.934405] dhdsdio_disconnect : the lock is released.
+Aug 19 02:13:54 myir user.debug kernel: [  127.934575] unregister wifi platform drivers
+Aug 19 02:13:54 myir user.debug kernel: [  127.934582] wifi_platform_bus_enumerate device present 0
+Aug 19 02:13:54 myir user.info kernel: [  127.934598] sunxi-wlan soc@03000000:wlan: bus_index: 1
+Aug 19 02:13:54 myir user.debug kernel: [  127.934602] ======== Card detection to remove SDIO card! ========
+Aug 19 02:13:54 myir user.debug kernel: [  127.934613] ======== dhd_wlan_deinit_plat_data ========
+Aug 19 02:13:54 myir user.debug kernel: [  127.934618] dhd_module_cleanup: Exit
+Aug 19 02:13:54 myir user.info kernel: [  127.935409] mmc2: card 0001 removed
+Aug 19 02:13:54 myir user.info kernel: [  127.935506] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm OFF vdd 0 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  127.936606] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm UP vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir daemon.info dhcpcd[1484]: wlan0: deleting route to 169.254.0.0/16
+Aug 19 02:13:54 myir user.info kernel: [  127.950928] sunxi-mmc sdc1: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  127.974832] sunxi-mmc sdc1: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  127.977340] sunxi-mmc sdc1: sdc set ios:clk 400000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  127.981720] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm OFF vdd 0 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  127.982826] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm UP vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  127.997556] sunxi-mmc sdc1: sdc set ios:clk 300000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.016420] sunxi-mmc sdc1: sdc set ios:clk 300000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.019118] sunxi-mmc sdc1: sdc set ios:clk 300000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.024645] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm OFF vdd 0 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.025775] sunxi-mmc sdc1: sdc set ios:clk 0Hz bm PP pm UP vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.debug kernel: [  128.030874] dhd_module_init: in Dongle Host Driver, version 1.579.77.41.11 (r)
+Aug 19 02:13:54 myir user.debug kernel: [  128.030885] ======== dhd_wlan_init_plat_data ========
+Aug 19 02:13:54 myir user.debug kernel: [  128.030900] dhd_wlan_init_gpio: WL_HOST_WAKE=-1, oob_irq=127, oob_irq_flags=0x4084
+Aug 19 02:13:54 myir user.debug kernel: [  128.030905] dhd_wlan_init_gpio: WL_REG_ON=-1
+Aug 19 02:13:54 myir user.debug kernel: [  128.030910] dhd_wifi_platform_load: Enter
+Aug 19 02:13:54 myir user.debug kernel: [  128.030948] Power-up adapter 'DHD generic adapter'
+Aug 19 02:13:54 myir user.debug kernel: [  128.030999] wifi_platform_set_power = 1
+Aug 19 02:13:54 myir user.debug kernel: [  128.031006] ======== PULL WL_REG_ON(-1) HIGH! ========
+Aug 19 02:13:54 myir user.info kernel: [  128.031877] sunxi-wlan soc@03000000:wlan: check wlan wlan_power voltage: 3300000
+Aug 19 02:13:54 myir user.info kernel: [  128.032732] sunxi-wlan soc@03000000:wlan: check wlan io_regulator voltage: 1800000
+Aug 19 02:13:54 myir user.info kernel: [  128.042483] sunxi-mmc sdc1: sdc set ios:clk 200000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.060842] sunxi-mmc sdc1: sdc set ios:clk 200000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.063758] sunxi-mmc sdc1: sdc set ios:clk 200000Hz bm PP pm ON vdd 21 width 1 timing LEGACY(SDR12) dt B
+Aug 19 02:13:54 myir daemon.info dhcpcd[1484]: wlan0: removing interface
+Aug 19 02:13:54 myir user.warn kernel: [  128.085035] mmc2: queuing unknown CIS tuple 0x80 (2 bytes)
+Aug 19 02:13:54 myir user.warn kernel: [  128.088079] mmc2: queuing unknown CIS tuple 0x80 (3 bytes)
+Aug 19 02:13:54 myir user.warn kernel: [  128.091063] mmc2: queuing unknown CIS tuple 0x80 (3 bytes)
+Aug 19 02:13:54 myir user.warn kernel: [  128.096458] mmc2: queuing unknown CIS tuple 0x80 (7 bytes)
+Aug 19 02:13:54 myir user.info kernel: [  128.265657] sunxi-mmc sdc1: sdc set ios:clk 200000Hz bm PP pm ON vdd 21 width 1 timing SD-HS(SDR25) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.265816] sunxi-mmc sdc1: sdc set ios:clk 50000000Hz bm PP pm ON vdd 21 width 1 timing SD-HS(SDR25) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.265927] sunxi-mmc sdc1: sdc set ios:clk 50000000Hz bm PP pm ON vdd 21 width 4 timing SD-HS(SDR25) dt B
+Aug 19 02:13:54 myir user.info kernel: [  128.267514] mmc2: new high speed SDIO card at address 0001
+Aug 19 02:13:54 myir user.debug kernel: [  128.347458] wifi_platform_bus_enumerate device present 1
+Aug 19 02:13:54 myir user.info kernel: [  128.347471] sunxi-wlan soc@03000000:wlan: bus_index: 1
+Aug 19 02:13:54 myir user.debug kernel: [  128.347476] ======== Card detection to detect SDIO card! ========
+Aug 19 02:13:54 myir user.debug kernel: [  128.363566] bcmsdh_register: register client driver
+Aug 19 02:13:54 myir user.debug kernel: [  128.363677] bcmsdh_sdmmc_probe: Enter num=1
+Aug 19 02:13:54 myir user.debug kernel: [  128.363770] bcmsdh_sdmmc_probe: Enter num=2
+Aug 19 02:13:54 myir user.debug kernel: [  128.363775] bus num (host idx)=2, slot num (rca)=1
+Aug 19 02:13:54 myir user.debug kernel: [  128.363780] found adapter info 'DHD generic adapter'
+Aug 19 02:13:54 myir user.debug kernel: [  128.363824] sdioh_attach: set sd_f2_blocksize 256
+Aug 19 02:13:54 myir user.debug kernel: [  128.363859] sdioh_attach: sd clock rate = 0
+Aug 19 02:13:54 myir user.debug kernel: [  128.364181] dhdsdio_probe : no mutex held. set lock
+Aug 19 02:13:54 myir user.debug kernel: [  128.364289] F1 signature read @0x18000000=0x1541a9a6
+Aug 19 02:13:54 myir user.debug kernel: [  128.366933] F1 signature OK, socitype:0x1 chip:0xa9a6 rev:0x1 pkg:0x4
+Aug 19 02:13:55 myir user.debug kernel: [  128.367883] DHD: dongle ram size is set to 524288(orig 524288) at 0x0
+Aug 19 02:13:55 myir user.debug kernel: [  128.368020] dhd_conf_set_chiprev: chip=0xa9a6, chiprev=1
+Aug 19 02:13:55 myir user.info kernel: [  128.368171] CFG80211-ERROR) wl_setup_wiphy : Registering Vendor80211
+Aug 19 02:13:55 myir user.err kernel: [  128.368523] ^^========, wl_setup_wiphy(11266), wdev->wiphy->interface_modes = 0000070E
+Aug 19 02:13:55 myir user.info kernel: [  128.368751] CFG80211-ERROR) wl_init_prof : wl_init_prof: No profile
+Aug 19 02:13:55 myir user.debug kernel: [  128.369073] dhd_attach(): thread:dhd_watchdog_thread:1f70 started
+Aug 19 02:13:55 myir user.debug kernel: [  128.369140] dhd_attach(): thread:dhd_dpc:1f71 started
+Aug 19 02:13:55 myir user.debug kernel: [  128.369207] dhd_attach(): thread:dhd_rxf:1f72 started
+Aug 19 02:13:55 myir user.debug kernel: [  128.369218] dhd_deferred_work_init: work queue initialized
+Aug 19 02:13:55 myir user.debug kernel: [  128.369225] dhd_tcpack_suppress_set: TCP ACK Suppress mode 0 -> mode 2
+Aug 19 02:13:55 myir user.debug kernel: [  128.369251] dhd_bus_set_default_min_res_mask: Unhandled chip id
+Aug 19 02:13:55 myir user.debug kernel: [  128.369431] sdioh_cis_read: func_cis_ptr[0]=0x1070
+Aug 19 02:13:55 myir user.debug kernel: [  128.378752] Dongle Host Driver, version 1.579.77.41.11 (r)
+Aug 19 02:13:55 myir user.err kernel: [  128.380414] ANDROID-MSG) wl_ext_iapsta_attach_netdev: ifidx=0, bssidx=0
+Aug 19 02:13:55 myir user.debug kernel: [  128.380432] Register interface [wlan0]  MAC: 60:1d:9d:ae:a2:25
+Aug 19 02:13:55 myir user.debug kernel: [  128.380432] 
+Aug 19 02:13:55 myir user.debug kernel: [  128.380488] dhd_tcpack_suppress_set: TCP ACK Suppress mode 2 -> mode 0
+Aug 19 02:13:55 myir user.debug kernel: [  128.380501] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:13:55 myir user.debug kernel: [  128.380506] dhd_dbg_detach_pkt_monitor, 2204
+Aug 19 02:13:55 myir user.debug kernel: [  128.380513] dhd_bus_devreset: == Power OFF ==
+Aug 19 02:13:55 myir user.debug kernel: [  128.381013] bcmsdh_oob_intr_unregister: Enter
+Aug 19 02:13:55 myir user.debug kernel: [  128.381018] bcmsdh_oob_intr_unregister: irq is not registered
+Aug 19 02:13:55 myir user.debug kernel: [  128.381031] dhd_txglom_enable: enable 0
+Aug 19 02:13:55 myir user.debug kernel: [  128.381037] dhd_conf_set_txglom_params: txglom_mode=multi-desc
+Aug 19 02:13:55 myir user.debug kernel: [  128.381042] dhd_conf_set_txglom_params: txglomsize=0, deferred_tx_len=0
+Aug 19 02:13:55 myir user.debug kernel: [  128.381047] dhd_conf_set_txglom_params: txinrx_thres=-1, dhd_txminmax=1
+Aug 19 02:13:55 myir user.debug kernel: [  128.381051] dhd_conf_set_txglom_params: tx_max_offset=0, txctl_tmo_fix=300
+Aug 19 02:13:55 myir user.debug kernel: [  128.381056] dhd_bus_devreset:  WLAN OFF DONE
+Aug 19 02:13:55 myir user.debug kernel: [  128.381100] wifi_platform_set_power = 0
+Aug 19 02:13:55 myir user.debug kernel: [  128.381106] ======== PULL WL_REG_ON(-1) LOW! ========
+Aug 19 02:13:55 myir user.debug kernel: [  128.382178] dhdsdio_probe : the lock is released.
+Aug 19 02:13:55 myir user.debug kernel: [  128.382868] Error creating socket.
+Aug 19 02:13:55 myir user.debug kernel: [  128.382874] dhd_module_init: Exit err=0
+Aug 19 02:13:55 myir user.debug kernel: [  128.452087] dhd_open: Enter ffffffc0798e1000
+Aug 19 02:13:55 myir user.debug kernel: [  128.452098] dhd_open : no mutex held. set lock
+Aug 19 02:13:55 myir user.debug kernel: [  128.452113] 
+Aug 19 02:13:55 myir user.debug kernel: [  128.452113] Dongle Host Driver, version 1.579.77.41.11 (r)
+Aug 19 02:13:55 myir user.err kernel: [  128.452118] ANDROID-MSG) wl_ext_iapsta_attach_netdev: ifidx=0, bssidx=0
+Aug 19 02:13:55 myir user.debug kernel: [  128.452180] wl_android_wifi_on in 1
+Aug 19 02:13:55 myir user.debug kernel: [  128.452185] wl_android_wifi_on in 2: g_wifi_on=0
+Aug 19 02:13:55 myir user.debug kernel: [  128.452191] wifi_platform_set_power = 1
+Aug 19 02:13:55 myir user.debug kernel: [  128.452197] ======== PULL WL_REG_ON(-1) HIGH! ========
+Aug 19 02:13:55 myir user.info kernel: [  128.453085] sunxi-wlan soc@03000000:wlan: check wlan wlan_power voltage: 3300000
+Aug 19 02:13:55 myir user.info kernel: [  128.453941] sunxi-wlan soc@03000000:wlan: check wlan io_regulator voltage: 1800000
+Aug 19 02:13:55 myir user.debug kernel: [  128.767468] sdio_reset_comm():
+Aug 19 02:13:55 myir user.info kernel: [  128.767497] sunxi-mmc sdc1: sdc set ios:clk 50000000Hz bm PP pm ON vdd 21 width 4 timing SD-HS(SDR25) dt B
+Aug 19 02:13:55 myir user.info kernel: [  128.769660] sunxi-mmc sdc1: sdc set ios:clk 50000000Hz bm PP pm ON vdd 21 width 4 timing SD-HS(SDR25) dt B
+Aug 19 02:13:55 myir user.info kernel: [  128.770704] sunxi-mmc sdc1: sdc set ios:clk 100000Hz bm PP pm ON vdd 21 width 4 timing SD-HS(SDR25) dt B
+Aug 19 02:13:55 myir user.warn kernel: [  128.807478] mmc2: queuing unknown CIS tuple 0x80 (2 bytes)
+Aug 19 02:13:55 myir user.warn kernel: [  128.813385] mmc2: queuing unknown CIS tuple 0x80 (3 bytes)
+Aug 19 02:13:55 myir user.warn kernel: [  128.819305] mmc2: queuing unknown CIS tuple 0x80 (3 bytes)
+Aug 19 02:13:55 myir user.warn kernel: [  128.829935] mmc2: queuing unknown CIS tuple 0x80 (7 bytes)
+Aug 19 02:13:55 myir user.info kernel: [  129.165291] sunxi-mmc sdc1: sdc set ios:clk 100000Hz bm PP pm ON vdd 21 width 4 timing SD-HS(SDR25) dt B
+Aug 19 02:13:55 myir user.info kernel: [  129.165483] sunxi-mmc sdc1: sdc set ios:clk 50000000Hz bm PP pm ON vdd 21 width 4 timing SD-HS(SDR25) dt B
+Aug 19 02:13:55 myir user.info kernel: [  129.165619] sunxi-mmc sdc1: sdc set ios:clk 50000000Hz bm PP pm ON vdd 21 width 4 timing SD-HS(SDR25) dt B
+Aug 19 02:13:55 myir user.debug kernel: [  129.165709] sdioh_start: set sd_f2_blocksize 256
+Aug 19 02:13:55 myir user.debug kernel: [  129.166017] 
+Aug 19 02:13:55 myir user.debug kernel: [  129.166017] 
+Aug 19 02:13:55 myir user.debug kernel: [  129.166017] dhd_bus_devreset: == WLAN ON ==
+Aug 19 02:13:55 myir user.debug kernel: [  129.166121] F1 signature read @0x18000000=0x1541a9a6
+Aug 19 02:13:55 myir user.debug kernel: [  129.168858] F1 signature OK, socitype:0x1 chip:0xa9a6 rev:0x1 pkg:0x4
+Aug 19 02:13:55 myir user.debug kernel: [  129.169777] DHD: dongle ram size is set to 524288(orig 524288) at 0x0
+Aug 19 02:13:55 myir user.debug kernel: [  129.169895] dhd_bus_set_default_min_res_mask: Unhandled chip id
+Aug 19 02:13:55 myir user.debug kernel: [  129.170112] dhd_os_open_image: /etc/firmware/config.txt (89 bytes) open success
+Aug 19 02:13:55 myir user.debug kernel: [  129.170147] dhd_conf_read_nv_by_chip: nv_by_chip_count=3
+Aug 19 02:13:55 myir user.debug kernel: [  129.170153] dhd_conf_read_nv_by_chip: chip=0xa9a6, chiprev=0, name=nvram_ap6212.txt
+Aug 19 02:13:55 myir user.debug kernel: [  129.170158] dhd_conf_read_nv_by_chip: chip=0xa9a6, chiprev=1, name=nvram_ap6212a.txt
+Aug 19 02:13:55 myir user.debug kernel: [  129.170164] dhd_conf_read_nv_by_chip: chip=0xa9a6, chiprev=2, name=nvram_ap6236.txt
+Aug 19 02:13:55 myir user.debug kernel: [  129.170183] Final fw_path=/etc/firmware/fw_bcm43438a1.bin
+Aug 19 02:13:55 myir user.debug kernel: [  129.170186] Final nv_path=/etc/firmware/nvram_ap6212a.txt
+Aug 19 02:13:55 myir user.debug kernel: [  129.170191] Final clm_path=/etc/firmware/clm.blob
+Aug 19 02:13:55 myir user.debug kernel: [  129.170194] Final conf_path=/etc/firmware/config.txt
+Aug 19 02:13:55 myir user.debug kernel: [  129.170988] dhd_os_open_image: /etc/firmware/fw_bcm43438a1.bin (375348 bytes) open success
+Aug 19 02:13:55 myir user.debug kernel: [  129.218179] dhd_os_open_image: /etc/firmware/nvram_ap6212a.txt (1003 bytes) open success
+Aug 19 02:13:55 myir user.debug kernel: [  129.218195] NVRAM version: AP6212A_NVRAM_V1.0.1_20160606^M
+Aug 19 02:13:55 myir user.debug kernel: [  129.218712] dhdsdio_write_vars: Download, Upload and compare of NVRAM succeeded.
+Aug 19 02:13:55 myir user.debug kernel: [  129.276319] dhd_bus_init: enable 0x06, ready 0x06 (waited 0us)
+Aug 19 02:13:55 myir user.debug kernel: [  129.276419] bcmsdh_oob_intr_register: HW_OOB irq=127 flags=0x4
+Aug 19 02:13:55 myir user.debug kernel: [  129.276541] dhd_get_memdump_info: File [/data/misc/wifi/.memdump.info] doesn't exist
+Aug 19 02:13:55 myir user.debug kernel: [  129.276546] dhd_get_memdump_info: MEMDUMP ENABLED = 2
+Aug 19 02:13:55 myir user.debug kernel: [  129.277129] Disable tdls_auto_op failed. -1
+Aug 19 02:13:55 myir user.debug kernel: [  129.277135] dhd_tcpack_suppress_set 362: already set to 0
+Aug 19 02:13:55 myir user.debug kernel: [  129.277901] dhd_apply_default_clm: Ignore clm file /etc/firmware/clm.blob
+Aug 19 02:13:55 myir user.debug kernel: [  129.280732] Firmware up: op_mode=0x0005, MAC=60:1d:9d:ae:a2:25
+Aug 19 02:13:55 myir user.debug kernel: [  129.284174] dhd_preinit_ioctls Set scancache failed -23
+Aug 19 02:13:55 myir user.debug kernel: [  129.295274]   Driver: 1.579.77.41.11 (r)
+Aug 19 02:13:55 myir user.debug kernel: [  129.295274]   Firmware: wl0: Nov 25 2016 15:06:56 version 7.46.57.5.apsta.r4.o12 (Station/Softap) FWID 01-64fb9fe8 es6.c5.n4.a3
+Aug 19 02:13:55 myir user.debug kernel: [  129.295274]   CLM: 7.11.15 
+Aug 19 02:13:55 myir user.debug kernel: [  129.295544] dhd_txglom_enable: enable 1
+Aug 19 02:13:55 myir user.debug kernel: [  129.295550] dhd_conf_set_txglom_params: txglom_mode=multi-desc
+Aug 19 02:13:55 myir user.debug kernel: [  129.295555] dhd_conf_set_txglom_params: txglomsize=36, deferred_tx_len=0
+Aug 19 02:13:55 myir user.debug kernel: [  129.295560] dhd_conf_set_txglom_params: txinrx_thres=-1, dhd_txminmax=1
+Aug 19 02:13:55 myir user.debug kernel: [  129.295564] dhd_conf_set_txglom_params: tx_max_offset=0, txctl_tmo_fix=300
+Aug 19 02:13:55 myir user.debug kernel: [  129.295572] dhd_conf_get_disable_proptx: fw_proptx=1, disable_proptx=-1
+Aug 19 02:13:55 myir user.debug kernel: [  129.296684] dhd_wlfc_hostreorder_init(): successful bdcv2 tlv signaling, 64
+Aug 19 02:13:55 myir user.debug kernel: [  129.298692] dhd_pno_init: Support Android Location Service
+Aug 19 02:13:55 myir user.info kernel: [  129.323771] CFG80211-ERROR) wl_cfg80211_event : Event handler is not created
+Aug 19 02:13:55 myir user.debug kernel: [  129.324617] rtt_do_get_ioctl: failed to send getbuf proxd iovar (CMD ID : 1), status=-23
+Aug 19 02:13:55 myir user.debug kernel: [  129.324623] dhd_rtt_init : FTM is not supported
+Aug 19 02:13:55 myir user.debug kernel: [  129.324628] dhd_preinit_ioctls: SensorHub diabled 0
+Aug 19 02:13:55 myir user.debug kernel: [  129.325460] dhd_preinit_ioctls failed to set ShubHub disable
+Aug 19 02:13:55 myir user.debug kernel: [  129.326315] dhd_ndo_get_version: failed, retcode = -23
+Aug 19 02:13:55 myir user.debug kernel: [  129.327180] dhd_wl_ioctl_get_intiovar: get int iovar wnm_bsstrans_resp failed, ERR -23
+Aug 19 02:13:55 myir user.debug kernel: [  129.327185] failed to get wnm_bsstrans_resp
+Aug 19 02:13:55 myir user.debug kernel: [  129.328025] failed to set WNM capabilities
+Aug 19 02:13:55 myir user.info kernel: [  129.328600] CFG80211-ERROR) wl_cfg80211_event : 
+Aug 19 02:13:55 myir user.debug kernel: [  129.328600] dhd_conf_set_country: set country CN, revision 0
+Aug 19 02:13:55 myir user.debug kernel: [  129.328603] Event handler is not created
+Aug 19 02:13:55 myir user.debug kernel: [  129.331729] Country code: CN (CN/0)
+Aug 19 02:13:55 myir user.debug kernel: [  129.336002] wl_android_wifi_on: Success
+Aug 19 02:13:55 myir user.info kernel: [  129.363929] CFG80211-ERROR) __wl_update_wiphybands : error reading vhtmode (-23)
+Aug 19 02:13:56 myir user.debug kernel: [  129.377319] dhd_open : the lock is released.
+Aug 19 02:13:56 myir user.debug kernel: [  129.377325] dhd_open: Exit ret=0
+Aug 19 02:13:56 myir daemon.info dhcpcd[1484]: wlan0: waiting for carrier
+Aug 19 02:13:56 myir daemon.info dhcpcd[1484]: wlan0: carrier acquired
+Aug 19 02:13:56 myir daemon.info dhcpcd[1484]: wlan0: IAID 9d:ae:a2:25
+Aug 19 02:13:56 myir daemon.info dhcpcd[1484]: wlan0: adding address fe80::cf53:9be5:f17f:c98d
+Aug 19 02:13:56 myir daemon.info dhcpcd[1484]: wlan0: soliciting an IPv6 router
+Aug 19 02:13:56 myir daemon.info dhcpcd[1484]: wlan0: soliciting a DHCP lease
+Aug 19 02:13:57 myir daemon.crit dnsmasq[8174]: failed to bind DHCP server socket: Address already in use
+Aug 19 02:13:57 myir daemon.crit dnsmasq[8174]: FAILED to start up
+Aug 19 02:13:57 myir user.debug kernel: [  130.397157] wl_cfg80211_del_station: Disconnect STA : ff:ff:ff:ff:ff:ff scb_val.val 3
+Aug 19 02:13:57 myir user.debug kernel: [  130.415685] wl_cfg80211_set_channel: netdev_ifidx(12), chan_type(1) target channel(6) 
+Aug 19 02:13:57 myir user.debug kernel: [  130.472986] wl_notify_connect_status_ap: ** AP/GO Link up event **
+Aug 19 02:13:59 myir daemon.info ntpd[1492]: Listen normally on 8 wlan0 [fe80::cf53:9be5:f17f:c98d%12]:123
+Aug 19 02:13:59 myir daemon.info ntpd[1492]: Deleting interface #6 wlan0, 169.254.71.62#123, interface stats: received=0, sent=0, dropped=0, active_time=53 secs
+Aug 19 02:13:59 myir daemon.info ntpd[1492]: Deleting interface #7 wlan0, fe80::cf53:9be5:f17f:c98d%11#123, interface stats: received=0, sent=0, dropped=0, active_time=53 secs
+Aug 19 02:14:01 myir daemon.info dhcpcd[1484]: wlan0: probing for an IPv4LL address
+Aug 19 02:14:06 myir daemon.info dhcpcd[1484]: wlan0: using IPv4LL address 169.254.71.62
+Aug 19 02:14:06 myir daemon.info dhcpcd[1484]: wlan0: adding route to 169.254.0.0/16
+Aug 19 02:14:07 myir daemon.info ntpd[1492]: Listen normally on 9 wlan0 169.254.71.62:123
+Aug 19 02:14:08 myir daemon.info hostapd: wlan0: STA d0:37:45:fe:8b:42 IEEE 802.11: associated
+Aug 19 02:14:08 myir user.debug kernel: [  141.498151] wl_notify_connect_status_ap: connected device d0:37:45:fe:8b:42
+Aug 19 02:14:08 myir user.info kernel: [  141.498794] CFG80211-ERROR) wl_cfg80211_change_station : WLC_SCB_AUTHORIZE sta_flags_mask not set 
+Aug 19 02:14:08 myir daemon.info hostapd: wlan0: STA d0:37:45:fe:8b:42 WPA: pairwise key handshake completed (RSN)
+Aug 19 02:14:09 myir daemon.warn dhcpcd[1484]: wlan0: no IPv6 Routers available
+Aug 19 02:14:13 myir daemon.info dnsmasq-dhcp[2595]: DHCPDISCOVER(wlan0) 169.254.71.64 d0:37:45:fe:8b:42 
+Aug 19 02:14:13 myir daemon.info dnsmasq-dhcp[2595]: DHCPOFFER(wlan0) 169.254.71.64 d0:37:45:fe:8b:42 
+Aug 19 02:14:13 myir daemon.info dnsmasq-dhcp[2595]: DHCPDISCOVER(wlan0) 169.254.71.64 d0:37:45:fe:8b:42 
+Aug 19 02:14:13 myir daemon.info dnsmasq-dhcp[2595]: DHCPOFFER(wlan0) 169.254.71.64 d0:37:45:fe:8b:42 
+Aug 19 02:14:13 myir daemon.info dnsmasq-dhcp[2595]: DHCPREQUEST(wlan0) 169.254.71.64 d0:37:45:fe:8b:42 
+Aug 19 02:14:13 myir daemon.info dnsmasq-dhcp[2595]: DHCPACK(wlan0) 169.254.71.64 d0:37:45:fe:8b:42 fdxdesktop-MS-7C75
+Aug 19 02:14:59 myir user.info kernel: [  193.086918] nf_conntrack: default automatic helper assignment has been turned off for security reasons and CT-based  firewall rule not found. Use the iptables CT target to attach helpers instead.
+Aug 19 02:17:23 myir daemon.info ntpd[1492]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Aug 19 02:25:36 myir user.debug kernel: [  829.548370] INTERNAL ERROR: FIRMWARE HALTED : set BUS DOWN
+Aug 19 02:25:36 myir user.debug kernel: [  829.549300] CONSOLE: 
+Aug 19 02:25:36 myir user.debug kernel: [  829.549306] CONSOLE: 000001.223 wlc_wowlpf_event_cb, event = 16, reason = 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.549310] CONSOLE: 000001.223 wl_nd_ra_filter_clear_cache: Enter..
+Aug 19 02:25:36 myir user.debug kernel: [  829.549315] CONSOLE: 000010.477 wl0: link local addresses being set! watch out!!
+Aug 19 02:25:36 myir user.debug kernel: [  829.549320] CONSOLE: 000012.235 wlc_wowlpf_event_cb, event = 4, reason = 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.549324] CONSOLE: 000012.248 wlc_wowlpf_event_cb, event = 8, reason = 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.549329] CONSOLE: 000012.256 wlc_wowlpf_event_cb, event = 25, reason = 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.549334] CONSOLE: 000012.266 wlc_wowlpf_event_cb, event = 25, reason = 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.549338] CONSOLE: 000700.273 internal error, 386097888/700273
+Aug 19 02:25:36 myir user.debug kernel: [  829.549342] CONSOLE: 000700.273 
+Aug 19 02:25:36 myir user.debug kernel: [  829.549346] CONSOLE: FWID 01-64fb9fe8
+Aug 19 02:25:36 myir user.debug kernel: [  829.549350] CONSOLE: flags 1
+Aug 19 02:25:36 myir user.debug kernel: [  829.549354] CONSOLE: 000700.273 
+Aug 19 02:25:36 myir user.debug kernel: [  829.549359] CONSOLE: TRAP c(7fe88): pc 111be, lr 1119f, sp 7fedc, cpsr 6000000c, spsr 61000010
+Aug 19 02:25:36 myir user.debug kernel: [  829.549363] CONSOLE: 000700.273   r0 2c, r1 7dab4, r2 1, r3 0, r4 7ad64, r5 170362e0, r6 760
+Aug 19 02:25:36 myir user.debug kernel: [  829.549368] CONSOLE: 000700.273   r7 10000000, r8 0, r9 18103000, r10 18004000, r11 18104000, r12 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.549372] CONSOLE: 000700.273 
+Aug 19 02:25:36 myir user.debug kernel: [  829.549376] CONSOLE:    sp+0 0000002c 0007dab4 00000001 00000000
+Aug 19 02:25:36 myir user.debug kernel: [  829.549381] CONSOLE: 000700.273   sp+10 00000000 0001119f 000111be 61000010
+Aug 19 02:25:36 myir user.debug kernel: [  829.549385] CONSOLE: 
+Aug 19 02:25:36 myir user.debug kernel: [  829.549389] CONSOLE: 000700.273 sp+14 0001119f
+Aug 19 02:25:36 myir user.debug kernel: [  829.549393] CONSOLE: 000700.273 sp+84 00002709
+Aug 19 02:25:36 myir user.debug kernel: [  829.549397] CONSOLE: 000700.273 sp+94 00002041
+Aug 19 02:25:36 myir user.debug kernel: [  829.549401] CONSOLE: 000700.273 sp+e0 000029db
+Aug 19 02:25:36 myir user.debug kernel: [  829.549405] CONSOLE: 000700.273 sp+100 000029db
+Aug 19 02:25:36 myir user.debug kernel: [  829.549409] CONSOLE: 000700.274 sp+110 00002223
+Aug 19 02:25:36 myir user.debug kernel: [  829.549413] CONSOLE: 000700.274 sp+118 0000313d
+Aug 19 02:25:36 myir user.debug kernel: [  829.549420] dhdsdio_checkdied: msgtrace address : 0x00000000
+Aug 19 02:25:36 myir user.debug kernel: [  829.549420] console address  : 0x0007DEBC
+Aug 19 02:25:36 myir user.debug kernel: [  829.549420] Assrt not built in dongle
+Aug 19 02:25:36 myir user.debug kernel: [  829.549420] Dongle trap type 0xc @ epc 0x111be, cpsr 0x6000000c, spsr 0x61000010, sp 0x7fedc,lp 0x1119f, rpc 0x111be Trap offset 0x7fe88, r0 0x2c, r1 0x7dab4, r2 0x1, r3 0x0, r4 0x7ad64, r5 0x170362e0, r6 0x760, r7 0x1000000
+Aug 19 02:25:36 myir user.debug kernel: [  829.549420] 
+Aug 19 02:25:36 myir user.debug kernel: [  829.549420] 
+Aug 19 02:25:36 myir user.debug kernel: [  829.549595] Dump dongle memory
+Aug 19 02:25:36 myir user.debug kernel: [  829.604887] dhd_schedule_memdump: buf(va)=ffffffc079700000, buf(pa)=b9700000, bufsize=524288
+Aug 19 02:25:36 myir user.debug kernel: [  829.604950] dhdsdio_dpc: failed backplane access over SDIO, halting operation
+Aug 19 02:25:36 myir user.debug kernel: [  829.604986] open file /installmedia/mem_dump_Dongle_Trap_1692383136.249181, try /data/
+Aug 19 02:25:36 myir user.debug kernel: [  829.604993] write_dump_to_file: file_path = /data/mem_dump_Dongle_Trap_1692383136.249181
+Aug 19 02:25:36 myir user.debug kernel: [  829.605001] open file error, err = -2
+Aug 19 02:25:36 myir user.debug kernel: [  829.605006] dhd_mem_dump: writing SoC_RAM dump to the file failed
+Aug 19 02:25:36 myir user.debug kernel: [  829.605077] dhdsdio_isr : bus is down. we have nothing to do
+Aug 19 02:25:36 myir user.debug kernel: [  829.807517] dhd_query_bus_erros: FW TRAP has occurred, cannot proceed
+Aug 19 02:25:36 myir user.debug kernel: [  829.807530] dhd_os_send_hang_message: Event HANG send up due to  re=0 te=0 s=0
+Aug 19 02:25:36 myir user.info kernel: [  829.807573] CFG80211-ERROR) wl_notifier_change_state : wl_notifier_change_state : busstate is DHD_BUS_DOWN!
+Aug 19 02:25:36 myir user.debug kernel: [  829.807629] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.807635] dhd_check_hang: Event HANG send up due to  re=0 te=0 e=-19 s=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.807641]   Driver: 1.579.77.41.11 (r)
+Aug 19 02:25:36 myir user.debug kernel: [  829.807641]   Firmware: wl0: Nov 25 2016 15:06:56 version 7.46.57.5.apsta.r4.o12 (Station/Softap) FWID 01-64fb9fe8 es6.c5.n4.a3
+Aug 19 02:25:36 myir user.debug kernel: [  829.807641]   CLM: 7.11.15 
+Aug 19 02:25:36 myir user.debug kernel: [  829.807641]   Chip: a9a6 Rev 1
+Aug 19 02:25:36 myir user.info kernel: [  829.807649] CFG80211-ERROR) wl_cfg80211_bss_up : 'bss 0' failed with -19
+Aug 19 02:25:36 myir user.info kernel: [  829.807657] CFG80211-ERROR) wl_cfg80211_stop_ap : bss down error -19
+Aug 19 02:25:36 myir user.debug kernel: [  829.807669] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.807674] dhd_wl_ioctl_set_intiovar: set int iovar arp_ol failed, ERR -19
+Aug 19 02:25:36 myir user.debug kernel: [  829.807679] dhd_arp_offload_set: failed to set ARP offload mode to 0x9, retcode = -19
+Aug 19 02:25:36 myir user.debug kernel: [  829.807685] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.807689] dhd_wl_ioctl_set_intiovar: set int iovar arpoe failed, ERR -19
+Aug 19 02:25:36 myir user.debug kernel: [  829.807694] dhd_arp_offload_enable: failed to enabe ARP offload to 1, retcode = -19
+Aug 19 02:25:36 myir user.debug kernel: [  829.807700] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.807704] dhd_wl_ioctl_get_intiovar: get int iovar arp_version failed, ERR -19
+Aug 19 02:25:36 myir user.debug kernel: [  829.807711] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.807715] dhd_check_hang: Event HANG send up due to  re=0 te=0 e=-19 s=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.807720]   Driver: 1.579.77.41.11 (r)
+Aug 19 02:25:36 myir user.debug kernel: [  829.807720]   Firmware: wl0: Nov 25 2016 15:06:56 version 7.46.57.5.apsta.r4.o12 (Station/Softap) FWID 01-64fb9fe8 es6.c5.n4.a3
+Aug 19 02:25:36 myir user.debug kernel: [  829.807720]   CLM: 7.11.15 
+Aug 19 02:25:36 myir user.debug kernel: [  829.807720]   Chip: a9a6 Rev 1
+Aug 19 02:25:36 myir user.info kernel: [  829.807725] CFG80211-ERROR) wl_cfg80211_stop_ap : WLC_UP error (-19)
+Aug 19 02:25:36 myir user.debug kernel: [  829.807955] dhd_stop: Enter ffffffc0798e1000
+Aug 19 02:25:36 myir user.debug kernel: [  829.807968] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.info kernel: [  829.807972] CFG80211-ERROR) wl_cfg80211_clear_security : wsec clear failed 
+Aug 19 02:25:36 myir user.debug kernel: [  829.807983] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.info kernel: [  829.808011] CFG80211-ERROR) wl_cfg80211_clear_security : auth clear failed 
+Aug 19 02:25:36 myir user.debug kernel: [  829.808033] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.info kernel: [  829.808039] CFG80211-ERROR) wl_cfg80211_clear_security : wpa_auth clear failed 
+Aug 19 02:25:36 myir user.debug kernel: [  829.808057] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.info kernel: [  829.808060] CFG80211-ERROR) wl_cfg80211_bss_isup : 'cfg bss -C 0' failed: -19
+Aug 19 02:25:36 myir user.info kernel: [  829.808068] CFG80211-ERROR) wl_cfg80211_bss_isup : NOTE: this ioctl error is normal when the BSS has not been created yet.
+Aug 19 02:25:36 myir user.info kernel: [  829.808082] CFG80211-ERROR) wl_notifier_change_state : wl_notifier_change_state : busstate is DHD_BUS_DOWN!
+Aug 19 02:25:36 myir user.info kernel: [  829.808208] CFGP2P-ERROR) wl_cfgp2p_disable_discovery :  do nothing, not initialized
+Aug 19 02:25:36 myir user.info kernel: [  829.808235] CFGP2P-ERROR) wl_cfgp2p_deinit_priv : In
+Aug 19 02:25:36 myir user.debug kernel: [  829.808250] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.info kernel: [  829.808254] CFG80211-ERROR) wl_dongle_down : WLC_DOWN error (-19)
+Aug 19 02:25:36 myir user.debug kernel: [  829.808269] dhd_tcpack_suppress_set 362: already set to 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.808280] wl_android_wifi_off in 1
+Aug 19 02:25:36 myir user.debug kernel: [  829.808286] wl_android_wifi_off in 2: g_wifi_on=1, on_failure=1
+Aug 19 02:25:36 myir user.debug kernel: [  829.808295] dhd_wl_ioctl: returning as busstate=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.808307] dhd_dbg_detach_pkt_monitor, 2204
+Aug 19 02:25:36 myir user.debug kernel: [  829.808321] dhd_bus_devreset: == Power OFF ==
+Aug 19 02:25:36 myir user.debug kernel: [  829.808379] bcmsdh_oob_intr_unregister: Enter
+Aug 19 02:25:36 myir user.debug kernel: [  829.808458] dhd_txglom_enable: enable 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.808465] dhd_conf_set_txglom_params: txglom_mode=multi-desc
+Aug 19 02:25:36 myir user.debug kernel: [  829.808470] dhd_conf_set_txglom_params: txglomsize=0, deferred_tx_len=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.808475] dhd_conf_set_txglom_params: txinrx_thres=-1, dhd_txminmax=1
+Aug 19 02:25:36 myir user.debug kernel: [  829.808479] dhd_conf_set_txglom_params: tx_max_offset=0, txctl_tmo_fix=300
+Aug 19 02:25:36 myir user.debug kernel: [  829.808485] dhd_bus_devreset:  WLAN OFF DONE
+Aug 19 02:25:36 myir user.debug kernel: [  829.808526] wifi_platform_set_power = 0
+Aug 19 02:25:36 myir user.debug kernel: [  829.808532] ======== PULL WL_REG_ON(-1) LOW! ========
+Aug 19 02:25:36 myir daemon.info dhcpcd[1484]: wlan0: carrier lost
+Aug 19 02:25:36 myir user.debug kernel: [  829.809617] wl_android_wifi_off out
+Aug 19 02:25:36 myir user.err kernel: [  829.809622] ANDROID-MSG) wl_ext_iapsta_dettach_netdev: ifidx=0
+Aug 19 02:25:36 myir user.debug kernel: [  829.809634] dhd_stop: Exit
+Aug 19 02:25:36 myir user.info kernel: [  829.814398] CFG80211-ERROR) wl_cfg80211_hang : In : chip crash eventing, reason=0x8002
+Aug 19 02:25:36 myir daemon.info dhcpcd[1484]: wlan0: deleting address fe80::cf53:9be5:f17f:c98d
+Aug 19 02:25:36 myir daemon.info dhcpcd[1484]: wlan0: deleting route to 169.254.0.0/16
+Aug 19 02:25:38 myir daemon.info ntpd[1492]: Deleting interface #8 wlan0, fe80::cf53:9be5:f17f:c98d%12#123, interface stats: received=0, sent=0, dropped=0, active_time=699 secs
+Aug 19 02:25:38 myir daemon.info ntpd[1492]: Deleting interface #9 wlan0, 169.254.71.62#123, interface stats: received=0, sent=0, dropped=0, active_time=691 secs
+
