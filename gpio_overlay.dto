@@ -1,0 +1,39 @@
+/dts-v1/; 
+/plugin/; 
+/ { 
+
+	// ---------------- DISABLING rgb24 pin config ---------------- //
+	fragment@0 { 
+		target = <&rgb24_pins_a>;
+		__overlay__ { 
+			status = "disabled";
+		}; 
+	}; 
+	
+	fragment@1 { 
+		target = <&rgb24_pins_b>;
+		__overlay__ { 
+			status = "disabled";
+		}; 
+	}; 
+	
+	
+	// ---------------- REDEFINING PD26 ---------------- //
+	fragment@2 { 
+		target = <&pio>; 
+		__overlay__ { 
+			button_interrupt_0 : button_interrupt_0 {
+			 
+				allwinner,pins = 	"PD26";
+				allwinner,function = 	"gpio_in";
+				allwinner,muxsel = 	<0; 			// -------------> How should I define this?
+				allwinner,pull = 	<1> 			// pull-up active config
+				 
+				interrupt-parent = 	<&pio>;
+				interrupts = 		<PD 26 IRQ_TYPE_RISING_EDGE>; 
+
+				status = 		"okay";
+			}; 
+		}; 
+	}; 
+}; 
